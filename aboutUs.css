@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header
+{
+    width: 100%;
+    height: 4.8em;
+    padding: 0.5em;
+    display: flex;
+    justify-self: center;
+    align-items: center;  
+    background-image: url(Images/color.avif);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 0.5em 0.5em 0 0;
+    box-shadow: 5px 5px rgba(238, 128, 156, 0.993);
+}
+.logo a
+{
+    color: whitesmoke;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 200%;
+}
+
+#banner img
+{
+    padding: 1%;
+}
+div>p {
+    padding-bottom: 2%;
+    line-height: 1.5;
+}
+p {
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 21px !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.maindiv
+{
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+}
+.section1{
+    width: 100%;
+    color: #fff;
+}
+.section1 img{
+    margin: 10%;
+    width: 80%;
+}
+.parentDiv h3
+{
+    color: palevioletred;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 400%;
+    font-weight: bolder;
+}
+.parentDiv img
+{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}

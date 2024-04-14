@@ -1,0 +1,308 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+}
+
+header
+{
+    width: 100%;
+    height: 4.8em;
+    padding: 0.5em;
+    display: flex;
+    justify-self: center;
+    align-items: center;  
+    background-image: url(Images/color.avif);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 0.5em 0.5em 0 0;
+    box-shadow: 5px 5px rgba(238, 128, 156, 0.993);
+}
+.logo a
+{
+    color: whitesmoke;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 200%;
+}
+.nav ol
+{
+    display: flex;
+    list-style: none;
+}
+
+li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5em;
+    display: flex;
+    position: relative;
+    left: 20em;
+    top: 4.5em;
+}
+
+.form .searchbar
+{
+    position: absolute;
+    width: 45%;
+    height: 2.3em;
+    text-align: center;
+    top: 1.6em;
+    left: 30em;
+    border-radius: 0.5em;
+}
+
+.form i{
+    position: relative;
+    left: 3.2em;
+    justify-items: end;
+    pointer-events: none;
+  }
+.fa-user
+{
+    position: absolute;
+    left: 39em;
+    top: 1.2em;
+    color: whitesmoke;
+}
+.fa-heart
+{
+    position: absolute;
+    left: 41em;
+    top: 1.2em;
+    color: whitesmoke;
+}
+.fa-shopping-cart
+{
+    position: absolute;
+    left: 43em;
+    top: 1.2em;
+    color: whitesmoke;
+}
+.button
+{
+    background-image: url(Images/womensbanner.avif);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    height: 80%;
+    margin-top: 1.9em;
+    font-weight: 1000;
+    font-size: 35px;
+}
+.centerd
+{
+    position: absolute;
+    top: 85%;
+    left: 24.2%;
+}
+.button button
+{
+    cursor: pointer;
+    color: rgb(242, 227, 187);
+    background-repeat: no-repeat;
+    font-weight: 2500;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.heading h2
+{
+    position: relative;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-size: 30px;
+    /* border-radius: 0.5em 0.5em 0 0;
+     color:rgb(245, 245, 245);
+    background-image: url(Images/color.avif);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin-top: 2%;
+}
+
+.parentContainer
+{
+    height: 178%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.childcontainer
+{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    margin: 20px;
+    width: 90%;
+    box-shadow: 4.5px 4.5px rgb(237, 117, 117);
+}
+
+.categoryparent
+{
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.categorychild
+{
+ 
+    height: 90%;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow: 1px 1px 5px 5px rgb(113, 112, 112);
+}
+.headercategory
+{
+    position: absolute;
+    padding-top: 225px;
+    padding-left: 62px;
+    font-family: calibri;
+}
+.trendParent
+{    
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5,1fr);
+    height: 32%;
+}
+.trendChild
+{
+    margin: 20px;   
+}
+.trendChild img
+{
+    width: 100%;
+    height: 80%;
+    
+} 
+.trendChild h6
+{
+    background-image: none;
+    color: rgb(96, 94, 94);
+    font-size: smaller;
+    font-family: Calibri;
+    font-weight: 20;
+}
+p
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    background-image: url(Images/color.avif);
+    font-size: larger;
+    color: whitesmoke;
+}
+.mainfooter
+{
+    width: 100%;
+    height: 40%;
+    margin-top: 3.2%;
+    background-color: #052735;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ftrheader
+{
+    font-size: 18px;
+    font-family: aria-label;
+}
+.ftritem
+{
+    font-size: 15px;
+    font-family: aria-label;
+}
+.section
+{
+    display: inline-block;
+    width: 24%;
+    font-size: 18px;
+}
+.section>.ftrheader, .ftritem a
+{
+    display: grid;
+    color: whitesmoke;
+    text-decoration: none; 
+    justify-items: center;
+}
+.tag
+{
+    padding: 0.5%;
+    font-size: 20px;
+    color: whitesmoke;  
+    text-align: center; 
+    justify-content: center;  
+}
+.tag h4
+{
+    display: flex;
+    position: relative;
+    text-align: center; 
+    justify-content: center; 
+}
+.tag .fab
+{
+    color: black;  
+    padding: 1%;
+}
+.bottom-bar
+{
+    margin-top: -0.14%;
+}
+.para
+{
+    height: 50px;
+}
+.social-icons
+{
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+.social-icons li
+{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i
+{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.button:hover
+{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.600);
+}
+.childcontainer:hover
+{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.600);
+}
+.categorychild:hover
+{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.600);
+}
+.trendChild:hover
+{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.600);
+}
